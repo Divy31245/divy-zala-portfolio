@@ -6,7 +6,7 @@ export default function LeftSidebar() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center justify-between bg-white h-screen w-1/4">
+    <div className="flex flex-col items-center justify-between bg-white h-screen w-1/4 border-r-2 border-dotted border-indigo-500 shadow-2xl">
       <div className="flex flex-col items-center justify-center py-10 text-4xl font-extrabold space-y-2">
         <Image
           src={
