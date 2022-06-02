@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer components{
     .navlinks{
         @apply border-2 -skew-y-3 text-white   font-bold rounded-md shadow-sm border-b-slate-800 p-3 text-xl  w-full mx-2 flex items-center justify-center hover:bg-indigo-500 hover:border-white hover:text-white transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110  hover:animate-pulse hover:-skew-y-2   duration-300 
@@ -18,9 +17,35 @@
     .services-icons{
         @apply border-2 border-blue-400 shadow-md rounded-md w-full h-full place-items-center
     }
+   
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 20px;
+  }
+
+.scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background-color: white;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #60a5fa;
+    border-radius: 100vh;
+    border: 3px solid #93c5fd;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #93c5fd;
+}
+
+.contactborder{
+    border-top-right-radius: 50px;
+    
 }

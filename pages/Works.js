@@ -13,9 +13,9 @@ export default function Works() {
       <div id="main-div" className="flex flex-col w-full  items-center md:w-3/4 md:flex md:flex-col md:items-center p-4 space-y-12 ">
         
         <h1 className="text-blue-500 font-bold text-3xl">My Projects!</h1>
-        <div className="p-4 flex flex-col items-center justify-center space-y-4 scrollbar-hide">
+        <div className="p-4 place-items-center grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-3  scrollbar-hide">
           <Link href={"https://facebook-clone-divy31245.vercel.app/"}>
-            <div className=" bg-white border-2 border-blue-300 group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
+            <div className=" bg-white border-2 border-blue-300 w-full h-full group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
               <Image
                 alt=""
                 src={fbpage}
@@ -40,7 +40,7 @@ export default function Works() {
             </div>
           </Link>
           <Link href={"https://mediumclone-lcc97yjes-divy31245.vercel.app/"}>
-            <div className=" bg-white border-2 border-blue-300 group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
+            <div className=" bg-white border-2 border-blue-300 w-full h-full group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
               <Image
                 alt=""
                 src={medclone}
@@ -64,7 +64,7 @@ export default function Works() {
             </div>
           </Link>
           <Link href={"http://crwn-clothing-live-divy.herokuapp.com/"}>
-            <div className=" bg-white border-2 border-blue-300 group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
+            <div className=" bg-white border-2 border-blue-300 w-full h-full group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
               <Image
                 alt=""
                 src={shopsite}
@@ -88,7 +88,7 @@ export default function Works() {
             </div>
           </Link>
           <Link href={"https://divy31245.github.io/wordleClone/"}>
-            <div className=" bg-white border-2 border-blue-300 group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
+            <div className=" bg-white border-2 border-blue-300 w-full h-full group flex justify-center text-center relative overflow-hidden rounded-md cursor-pointer ">
               <Image
                 alt=""
                 src={worldle}

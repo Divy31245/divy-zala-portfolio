@@ -12,7 +12,7 @@ export default function LeftSidebar() {
   };
   return (
     <main className="">
-      <div className="flex justify-between md:hidden p-2">
+      <div className="flex justify-between md:hidden p-2 bg-gradient-to-b">
         <button onClick={() => handleClick()}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ export default function LeftSidebar() {
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            strokeWidth-width="2"
+            strokeWidth="2"
           >
             <path
               strokeLinecap="round"
@@ -75,8 +75,8 @@ export default function LeftSidebar() {
               Services
             </button>
           </div>
-          <div className={router.pathname=='/Contact-me'?"active-navlink":"navlinks"}>
-            <button type="button" onClick={() => router.push("/Contact-me")}>
+          <div className={router.pathname=='/Contactme'?"active-navlink":"navlinks"}>
+            <button type="button" onClick={() => router.push("/Contactme")}>
               Contact me
             </button>
           </div>

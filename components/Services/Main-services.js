@@ -77,7 +77,7 @@ export default function ServicesSection() {
   return (
     <main className="w-full flex flex-col justify-center items-center p-8 space-y-4 ">
       <div>
-        <h1 className="text-4xl text-blue-500">My Skills</h1>
+        <h1 className="text-4xl text-blue-500 font-extrabold">My Skills</h1>
       </div>
       <div className="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-3  place-items-center p-4 h-full w-full ">
         {sections.map((section) => (
