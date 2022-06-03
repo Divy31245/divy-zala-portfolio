@@ -1,4 +1,4 @@
-import LeftSidebar from "../components/sidebar-left/sidebar-left";
+import LeftSidebar from "../components/sidebar-left/Sidebar-left";
 import Image from "next/dist/client/image";
 import fbpage from "../assets/prjfb.png";
 import medclone from "../assets/medcln.png";
