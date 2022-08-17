@@ -1,6 +1,6 @@
 import Head from "next/head";
-import LeftSidebar from "../components/sidebar-left/sidebar-left";
-import RightSidebar from "../components/sidebar-right/sidebar-right";
+import LeftSidebar from "../components/sidebar-left/LeftSidebar";
+import RightSidebar from "../components/sidebar-right/RightSidebar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {

@@ -1,4 +1,4 @@
-import LeftSidebar from "../components/sidebar-left/Sidebar-left";
+import LeftSidebar from "../components/sidebar-left/LeftSidebar";
 import ContactForm from "../components/contactme/ContactForm";
 export default function Contactme() {
   return (

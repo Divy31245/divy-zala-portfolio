@@ -1,4 +1,4 @@
-import LeftSidebar from "../components/sidebar-left/sidebar-left";
+import LeftSidebar from "../components/sidebar-left/LeftSidebar";
 
 import ServicesSection from "../components/Services/Main-services";
 export default function Services() {
