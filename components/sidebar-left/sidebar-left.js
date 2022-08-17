@@ -51,7 +51,7 @@ export default function LeftSidebar() {
         <div className="flex flex-col items-center justify-center py-10 text-4xl font-extrabold space-y-2">
           <Image
             src={
-              "https://media-exp1.licdn.com/dms/image/C5603AQHakfcBojiRCg/profile-displayphoto-shrink_400_400/0/1646374261617?e=1658966400&v=beta&t=7dPrvGbNozM-rEpnCDLxgf1gXwS2pbz9bIUrJxyZc9w"
+              "https://media-exp1.licdn.com/dms/image/C5603AQE_C8nH1c-Wbw/profile-displayphoto-shrink_400_400/0/1660202713680?e=1666224000&v=beta&t=h8OSJgNyprclxnS53qtmMs91GnpwhNafR16z7zGswk0"
             }
             width={200}
             height={200}
