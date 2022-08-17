@@ -14,9 +14,9 @@ export default function RightSidebar() {
     <>
       <div className="w-full  ">
         <div className="hidden md:w-1/4 md:flex"></div>
-        <main className="flex  flex-col justify-center space-y-3  items-center w-full bg-white bg-repeat-round  h-screen md:w-3/4 md:float-right">
+        <main className="flex  main flex-col justify-center space-y-3  items-center w-full bg-white bg-repeat-round  h-screen md:w-3/4 md:float-right">
           {/* paragraph and title */}
-          <div  className=" justify-center mainpageborder   drop-shadow-2xl bg-white rounded-bl-3xl border-2 h-full md:m-4  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4 ">
+          <div  className=" justify-center mainpageborder  bg-white  drop-shadow-2xl  rounded-bl-3xl border-2 h-full md:m-12  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4 ">
             <div className="text-2xl">Hey, Divy Zala here!</div>
             <div className="text-5xl text-blue-500 font-bold">
               A React/Next.js Web Developer.
@@ -31,14 +31,14 @@ export default function RightSidebar() {
             </div>
           </div>
         </main>
-        {/* <div className="justify-center h-full   drop-shadow-2xl bg-white rounded-bl-3xl border-2  md:m-4  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4"><h1>hello</h1></div> */}
+        {/* <div className="justify-center h-full   drop-shadow-2xl bg-white rounded-bl-3xl border-2  md:m-12  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4"><h1>hello</h1></div> */}
       </div>
       {/* About me section */}
       <div className="w-full  ">
         <div className="hidden md:w-1/4 md:flex"></div>
-        <main ref={aboutmeRef} className="flex  flex-col justify-center items-center w-full  bg-white h-screen md:w-3/4 md:float-right">
+        <main ref={aboutmeRef} className="flex main flex-col justify-center items-center w-full  bg-white h-screen md:w-3/4 md:float-right">
           {/* paragraph and title */}
-          <div className=" justify-center   drop-shadow-2xl bg-white aboutmeborder border-2 h-full md:m-4  w-full flex flex-col items-center space-y-5  md:flex md:flex-col md:items-start md:p-8 md:justify-center md:w-3/4 ">
+          <div className=" justify-center   drop-shadow-2xl  aboutmeborder bg-white border-2 h-full md:m-12  w-full flex flex-col items-center space-y-5  md:flex md:flex-col md:items-start md:p-8 md:justify-center md:w-3/4 ">
             <h1 className="text-5xl font-extrabold float-left">About me</h1>
             <div className="text-xl w-3/4 font-light">
               I am a self-taught React/Next.js developer. I have always been
@@ -57,20 +57,20 @@ export default function RightSidebar() {
             </button></a>
           </div>
         </main>
-        {/* <div className="justify-center h-full   drop-shadow-2xl bg-white rounded-bl-3xl border-2  md:m-4  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4"><h1>hello</h1></div> */}
+        {/* <div className="justify-center h-full   drop-shadow-2xl bg-white rounded-bl-3xl border-2  md:m-12  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4"><h1>hello</h1></div> */}
       </div>
       {/* my socials section */}
       <div className="w-full  ">
         <div className="hidden md:w-1/4 md:flex"></div>
-        <main ref={connectRef} className="flex  flex-col justify-center items-center w-full bg-white  h-screen md:w-3/4 md:float-right">
+        <main ref={connectRef} className="flex main flex-col justify-center items-center w-full bg-white  h-screen md:w-3/4 md:float-right">
           {/* paragraph and title */}
-          <div className=" justify-center   drop-shadow-2xl bg-white socialborder border-2 h-full md:m-4 space-y-7  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4 ">
+          <div className=" justify-center   drop-shadow-2xl  socialborder bg-white border-2 h-full md:m-12 space-y-7  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4 ">
             <div className="text-4xl">Let&apos;s connect!</div>
             {/* Icons */}
             <Socialicons />
           </div>
         </main>
-        {/* <div className="justify-center h-full   drop-shadow-2xl bg-white rounded-bl-3xl border-2  md:m-4  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4"><h1>hello</h1></div> */}
+        {/* <div className="justify-center h-full   drop-shadow-2xl bg-white rounded-bl-3xl border-2  md:m-12  w-full flex flex-col items-center space-x-7  md:flex md:flex-col md:items-center md:justify-center md:w-3/4"><h1>hello</h1></div> */}
       </div>
     </>
   );

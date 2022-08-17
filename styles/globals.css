@@ -50,11 +50,18 @@ body{
 }
 
 .mainpageborder{
-    border-bottom-left-radius: 50px; 
+    border-bottom-left-radius: 50px;
+   
+   
+}
+
+.main{
+    background-image: url('../assets/cool-background.png'); 
 }
 
 .aboutmeborder{
     border-radius: 5rem;
+   
 }
 
 .socialborder{
